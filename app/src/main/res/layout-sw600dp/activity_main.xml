@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- MasterListFragment for displaying closes -->
+    <fragment
+        android:id="@+id/master_list_fragment"
+        android:name="com.example.android.android_me.ui.MasterListFragment"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"/>
+
+    <!-- fragment divider -->
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/activity_android_me"/>
+
+
+</LinearLayout>
